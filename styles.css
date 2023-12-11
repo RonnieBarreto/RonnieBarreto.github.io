@@ -29,20 +29,31 @@ h1 sub{
     color:#aaa;
     vertical-align: baseline;
 }
-h1 sub::before{
-    content: "(";
+
+section{
+    border-top: 2px dashed #eee;
+    padding: 50px 0;
+    max-width: 800px; 
+    margin: 0 auto;
 }
-h1 sub::after{
-    content: ")";
+p sub{
+    vertical-align: baseline;
+}
+p sub:before{
+    content:"(";
+}
+p sub::after{
+    content:")";
 }
 img{
     border-radius: 50%;
 }
 
 .hero{
-    outline: 1px solid red;
     height : 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border:0;
+    padding:0;
 }
