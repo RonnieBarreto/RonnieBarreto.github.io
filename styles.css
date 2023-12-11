@@ -1,8 +1,4 @@
 body{
-    background-color: teal;
-}
-h1{
-    
     text-align: center;
 }
 *{
@@ -15,4 +11,20 @@ h1{
     text-decoration: inherit;
     line-height: inherit;
     color: inherit;
+}
+html, body{
+    font-family: "Helvetica Neue",Helvatica,
+    sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444;
+    text-shadow: 1px 1px 0px #008080;
+}
+h1{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+}
+img{
+    border-radius: 50%;
 }
